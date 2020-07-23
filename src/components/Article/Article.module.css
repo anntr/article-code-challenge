@@ -1,0 +1,41 @@
+.article__body,
+.article__header,
+.article__image {
+  padding: 0 4rem;
+  max-width: 1180px;
+}
+
+.article__header {
+  background-color: #172956;
+  color: #fff;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.article__body p {
+  line-height: 160%;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+}
+
+.article__image .image {
+  width: 100%;
+  height: auto;
+  display: block;
+  top: -2rem;
+  position: relative;
+  margin: 0 auto;
+}
+
+.article__byline {
+  margin-top: 1.25rem;
+}
+
+.article__byline > * + * {
+  margin-left: 0.5rem;
+}
+
+.article__figcaption {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}

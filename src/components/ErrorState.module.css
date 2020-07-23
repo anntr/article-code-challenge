@@ -1,0 +1,12 @@
+.error-state__retry-button {
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.15rem;
+  margin: 1rem 0;
+  color: #ffffff;
+  background-color: #172956;
+  position: relative;
+}
+
+.error-state {
+  margin-top: 10rem;
+}
